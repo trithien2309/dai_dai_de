@@ -29,7 +29,8 @@ namespace YourNamespace
         private bool IsValidUser(string username, string password)
         {
             // Replace with your own authentication logic
-            return username == "admin" && password == "password";
+            return username == "admin"; 
+            return password == "password";
         }
     }
 }
